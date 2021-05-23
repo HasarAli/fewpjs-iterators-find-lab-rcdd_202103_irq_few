@@ -5,5 +5,5 @@ const record = [
 ]
 
 function superbowlWin(record) {
-  return record.find(game => game.result === "W").year
+  return (record.find(game => game.result === "W")).year
 }
