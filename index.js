@@ -4,6 +4,6 @@ const record = [
   {year: "2016", result: "N/A"},
 ]
 
-function superbowlWin() {
-  return "hi"
+function superbowlWin(record) {
+  return record.find(game => game.result === "W")
 }
